@@ -1,0 +1,128 @@
+/* Seccion Compra/Alquiler */
+
+
+.compra-alquiler {
+
+    text-align: center;
+    padding: 10px;
+    text-decoration: underline;
+    text-shadow: 1px 1px 2px gray;
+    font-size: 15px;
+        
+}
+
+
+.banner-compra-alquiler {
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px;
+   
+    .tittle-banner-compra {
+   
+        width: auto;
+        margin: 5px;
+        background-color:rgb(245, 242, 242);
+        font-size: 12px;
+        text-decoration: none;
+        text-align: center;
+        width: auto;
+        border: 1px solid #d1d1d1;
+        border-radius: 10px;
+    
+        img {
+            object-fit: cover;
+            width: 100%;
+            height: auto;
+        }
+
+        h3 {
+
+            text-align: center;
+            width: auto;
+            font-size: 25px;
+        }
+    }
+        .tittle-banner__description {
+            h4 {
+
+                text-align: center;
+                width: auto;
+            }
+            p {
+
+                font-size: 12px;
+                text-decoration: none;
+                text-align: center;
+                width: auto;
+       
+            }
+        }
+}
+
+
+/* Seccion Compra-alquiler */    
+
+.compra-alquiler-txt {
+
+    text-align: center;
+    padding: 18px;
+    text-decoration: underline;
+    text-shadow: 1px 1px 2px gray;
+
+}
+
+
+@media (min-width: 703px) {
+.banner-compra-alquiler {
+
+    display: grid;
+    width: auto;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: auto;
+    grid-template-columns: repeat(2, 1fr);
+ 
+            
+
+}
+}
+
+@media (min-width: 1029px) 
+    {
+    .banner-compra-alquiler {
+    
+        display: grid;
+        width: auto;
+        justify-content: space-around;
+        max-width: 1200px;
+        margin: auto;
+        grid-template-columns: repeat(3, 1fr);
+
+    
+
+        .tittle-banner-compra {
+            
+
+            width: auto;
+            margin: 5px;
+            background-color:rgb(245, 242, 242);
+            font-size: 12px;
+            text-decoration: none;
+            text-align: center;
+    
+            }
+
+   
+                img {
+    
+                    width: 300px;
+                    height: 210px;
+                    object-fit: cover;
+                    border-color: rgb(221, 218, 218);
+    
+                }
+        }
+    }
