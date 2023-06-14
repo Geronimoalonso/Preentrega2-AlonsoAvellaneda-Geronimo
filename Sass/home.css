@@ -1,0 +1,111 @@
+/* Seccion Inicio */
+.prop-destacadas {
+  text-align: center;
+  color: black;
+  text-decoration: underline;
+  padding: 22px;
+  text-shadow: 1px 1px 2px gray;
+}
+
+.prop-destacadas__imagenes {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.prop-destacadas__parrafo {
+  border: 1px solid #d1d1d1;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  margin: 5px;
+}
+.prop-destacadas__parrafo p {
+  text-align: center;
+  margin: 5px;
+  font-weight: 600;
+}
+
+.prop-destacadas__galeria {
+  width: 250px;
+  height: 150px;
+  margin-bottom: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 10px;
+}
+
+aside.info {
+  display: grid;
+  padding: 15px;
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+
+aside .info-maps iframe {
+  width: 400px;
+  max-width: 550px;
+  height: 200px;
+}
+aside #info-nosotros {
+  border: 1px solid #d1d1d1;
+  padding: 10px;
+  margin: 0 10px;
+  align-items: center;
+  background-color: rgb(245, 243, 243);
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+}
+aside #info-nosotros h2 {
+  text-decoration: underline;
+  text-align: center;
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.txt-canales {
+  background-color: white;
+  border: 1px solid #000;
+  border-color: rgb(221, 218, 218);
+  text-align: center;
+  width: 100%;
+  height: auto;
+  padding: 8px;
+  font-size: 15px;
+}
+
+#footer {
+  font-size: 17px;
+  background-color: rgb(235, 235, 235);
+}
+
+#footer li {
+  font-size: 25px;
+}
+
+#footer li:hover {
+  background-color: rgb(221, 218, 218);
+}
+
+/* Seccion media */
+@media (min-width: 558px) {
+  .prop-destacadas {
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+    padding: 22px;
+    text-shadow: 1px 1px 2px gray;
+  }
+  aside.info {
+    display: grid;
+    padding: 35px;
+    gap: 50px;
+    align-items: center;
+    grid-template-columns: 1fr 2fr;
+  }
+}/*# sourceMappingURL=home.css.map */

@@ -2,6 +2,15 @@
 /* Seccion Emprendimiento */
 
 
+.section-emprendimiento {
+
+    grid: flex;
+    width: 100%;
+    height: auto;
+   
+}
+
+
 .emprendimiento-tittle {
     text-align: center;
     color: black;
@@ -15,45 +24,39 @@
 .tittle-banner-emprendimiento {
 
 
-    display: grid;
-    margin: 10px;
-    padding: 10px;
     border: 1px solid #d1d1d1;
     border-radius: 10px;
-    width: auto;   
+    width: 100%;  
+    height: auto; 
+    padding: 15px;
+    margin: 25px 0;  
 
 
 
         h3 {
 
-        grid-column: 1/2;
-        text-align: center;
-        text-decoration: underline;
-        padding: 15px;
-        margin: 0 15px;
+            text-align: center;
+            text-decoration: underline;
+            padding: 10px;
+            margin: 5px;
 
         }
 
         p {
-        grid-column: 1/2;
-        grid-row: 2/3;
-        margin: 0 15px;
-        padding: 10px;
+            margin: 10px;
+            padding: 5px;
         }
 
 
         h4 {
 
-        grid-column: 1/2;
-        grid-row: 3/4;
-        width: 350px;
-        margin: 15px;
-        border: 1px solid #d1d1d1;
-        border-radius: 10px;    
-        padding: 10px;
-        font-size: 15px;
-        background-color: rgb(245, 243, 243);
-        text-align: center;
+            margin: 15px;
+            border: 1px solid #d1d1d1;
+            border-radius: 10px;    
+            padding: 10px;
+            font-size: 15px;
+            background-color: rgb(245, 243, 243);
+            max-width: 250px;
              
 
         }
@@ -66,7 +69,7 @@
 
 }
 
-  
+  /*  
 .galeria-emprendimiento {
     
     flex-wrap: wrap;
@@ -77,4 +80,4 @@
     border-style: inherit;
     border:1px solid #a7f7fd;
 
-} 
+} */
