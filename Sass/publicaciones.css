@@ -6,7 +6,6 @@
   flex-wrap: wrap;
   padding: 15px;
 }
-
 .banner-publicaciones .banner-publicaciones__galeria {
   width: auto;
   margin: 5px;
@@ -16,7 +15,6 @@
   text-align: center;
   width: auto;
 }
-
 .banner-publicaciones .banner-publicaciones__galeria img {
   -o-object-fit: cover;
      object-fit: cover;
@@ -24,7 +22,12 @@
   height: auto;
   max-height: 450px;
 }
-
+.banner-publicaciones .txt-tittle-publicaciones {
+  padding: 10px;
+  margin: 10px;
+  align-items: center;
+  font-size: 10px;
+}
 .banner-publicaciones .txt-tittle-publicaciones h4 {
   text-align: center;
   width: auto;
@@ -32,7 +35,6 @@
   border: 1px solid #d1d1d1;
   border-radius: 10px;
 }
-
 .banner-publicaciones .txt-tittle-publicaciones p {
   font-size: 18px;
   text-decoration: none;
@@ -41,27 +43,6 @@
   border: 1px solid #d1d1d1;
   max-width: 900px;
   border-radius: 10px;
-}
-
-.txt-tittle-publicaciones {
-  padding: 10px;
-  margin: 10px;
-  align-items: center;
-  font-size: 10px;
-}
-
-.txt-tittle-publicaciones h4 {
-  text-align: center;
-  padding: 10px;
-  font-size: 35px;
-}
-
-.txt-tittle-publicaciones p {
-  text-align: center;
-  -webkit-text-decoration: 1px solid #d1d1d1;
-          text-decoration: 1px solid #d1d1d1;
-  padding: 10px;
-  font-size: 30px;
 }
 
 .txt-description-publicaciones {
@@ -90,12 +71,10 @@
   margin: 5px 10px;
   border-radius: 10px;
 }
-
 .txt-aside_otras-publicaciones__description p {
   font-size: 18px;
   margin: 10px;
 }
-
 .txt-aside_otras-publicaciones__description h4 {
   font-size: 24px;
   margin: 10px;

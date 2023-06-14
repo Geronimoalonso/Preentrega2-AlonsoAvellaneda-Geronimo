@@ -12,76 +12,59 @@
     padding: 15px;
     
     
-}
-  
-.banner-publicaciones .banner-publicaciones__galeria {
+
+    .banner-publicaciones__galeria {
    
-    width: auto;
-    margin: 5px;
-    background-color:rgb(245, 242, 242);
-    font-size: 12px;
-    text-decoration: none;
-    text-align: center;
-    width: auto;
-}
+        width: auto;
+        margin: 5px;
+        background-color:rgb(245, 242, 242);
+        font-size: 12px;
+        text-decoration: none;
+        text-align: center;
+        width: auto;
+    }
 
-.banner-publicaciones .banner-publicaciones__galeria img {
+    .banner-publicaciones__galeria img{
 
-    object-fit: cover;
-    width: 100%;
-    height: auto;
-    max-height: 450px;
-}
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+        max-height: 450px;
+    }
 
+    .txt-tittle-publicaciones {
 
-.banner-publicaciones .txt-tittle-publicaciones h4 {
+    
+        padding: 10px;
+        margin:10px;
+        align-items: center;
+        font-size: 10px;
+        
+    
 
-    text-align: center;
-    width: auto;
-    font-size: 27px;
-    border: 1px solid #d1d1d1;
-    border-radius: 10px;
-}
+        h4 {
 
-.banner-publicaciones .txt-tittle-publicaciones p {
+            text-align: center;
+            width: auto;
+            font-size: 27px;
+            border: 1px solid #d1d1d1;
+            border-radius: 10px;
+        }
 
-    font-size: 18px;
-    text-decoration: none;
-    text-align: center;
-    width: auto;
-    border: 1px solid #d1d1d1;
-    max-width: 900px;
-    border-radius: 10px;
+        p {
+
+            font-size: 18px;
+            text-decoration: none;
+            text-align: center;
+            width: auto;
+            border: 1px solid #d1d1d1;
+            max-width: 900px;
+            border-radius: 10px;
        
+        }
+    }
 }
 
-.txt-tittle-publicaciones {
-
-    
-    padding: 10px;
-    margin:10px;
-    align-items: center;
-    font-size: 10px;
-    
-}
-
-.txt-tittle-publicaciones h4 {
-
-    text-align: center;
-    padding: 10px;
-    font-size: 35px;
-    
-}
-
-.txt-tittle-publicaciones p {
-
-    text-align: center;
-    text-decoration: 1px solid #d1d1d1;
-    padding: 10px;   
-    font-size: 30px; 
-   
-    
-}
 
 .txt-description-publicaciones {
      
@@ -115,27 +98,26 @@
     margin: 5px 10px;
     border-radius: 10px;
     
-}
 
-.txt-aside_otras-publicaciones__description p {
 
-    font-size: 18px;
-    margin: 10px
+        p {
+
+            font-size: 18px;
+            margin: 10px
     
+        }
 
-}
+        h4 {
 
-.txt-aside_otras-publicaciones__description h4 {
-
-    font-size: 24px;
-    margin: 10px ;
-    border-style: inherit;  
-    border: 1px solid #d1d1d1;
-    padding: 10px;
-    text-align: center;
-    border-radius: 10px;
+            font-size: 24px;
+            margin: 10px ;
+            border-style: inherit;  
+            border: 1px solid #d1d1d1;
+            padding: 10px;
+            text-align: center;
+            border-radius: 10px;
     
-    
+        } 
 } 
 
 
