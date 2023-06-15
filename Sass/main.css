@@ -143,6 +143,11 @@ aside #info-nosotros h2 {
   }
 }
 /* Seccion Compra/Alquiler */
+.section-compra-alquiler {
+  width: 100%;
+  height: auto;
+}
+
 .compra-alquiler {
   text-align: center;
   padding: 10px;
@@ -191,7 +196,7 @@ aside #info-nosotros h2 {
   width: auto;
 }
 
-/* Seccion Compra-alquiler */
+/* Seccion media */
 .compra-alquiler-txt {
   text-align: center;
   padding: 18px;
@@ -283,18 +288,6 @@ aside #info-nosotros h2 {
   grid-column: 1/2;
 }
 
-/*  
-.galeria-emprendimiento {
-
-    flex-wrap: wrap;
-    width: 370px;
-    height: 250px;
-    margin-left: 50px;
-    margin: 30px;
-    border-style: inherit;
-    border:1px solid #a7f7fd;
-
-} */
 /* Seccion Publicaciones */
 .banner-publicaciones {
   display: flex;
@@ -383,6 +376,11 @@ aside #info-nosotros h2 {
 }
 
 /* Seccion Contacto */
+.contacto-main {
+  width: 100%;
+  height: auto;
+}
+
 .contacto-tittle {
   text-align: center;
   color: black;

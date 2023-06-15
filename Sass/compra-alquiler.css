@@ -1,4 +1,9 @@
 /* Seccion Compra/Alquiler */
+.section-compra-alquiler {
+  width: 100%;
+  height: auto;
+}
+
 .compra-alquiler {
   text-align: center;
   padding: 10px;
