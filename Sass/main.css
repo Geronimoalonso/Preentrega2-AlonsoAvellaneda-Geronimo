@@ -87,7 +87,6 @@ aside .info-maps iframe {
 aside #info-nosotros {
   border: 1px solid #d1d1d1;
   padding: 10px;
-  margin: 0 10px;
   align-items: center;
   background-color: rgb(245, 243, 243);
   font-size: 14px;
@@ -98,7 +97,6 @@ aside #info-nosotros h2 {
   text-decoration: underline;
   text-align: center;
   padding: 10px;
-  margin: 0 10px;
 }
 
 .txt-canales {
