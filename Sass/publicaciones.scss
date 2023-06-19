@@ -22,14 +22,15 @@
         text-decoration: none;
         text-align: center;
         width: auto;
-    }
+    
 
-    .banner-publicaciones__galeria img{
+        img{
 
-        object-fit: cover;
-        width: 100%;
-        height: auto;
-        max-height: 450px;
+            object-fit: cover;
+            width: 100%;
+            height: auto;
+            max-height: 450px;
+        }
     }
 
     .txt-tittle-publicaciones {
@@ -64,6 +65,7 @@
         }
     }
 }
+
 
 
 .txt-description-publicaciones {
