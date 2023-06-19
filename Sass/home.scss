@@ -71,26 +71,20 @@ aside {
 
     #info-nosotros {
         border: 1px solid #d1d1d1;
-        padding: 10px;
-        
+        padding: 10px;        
         align-items: center;
         background-color: rgb(245, 243, 243);
         font-size: 14px;
         font-family: Arial, Helvetica, sans-serif;
         border-radius: 10px;
    
-     
-     
-    }
+        h2 {
 
-    #info-nosotros h2 {
-
-        text-decoration: underline;
-        text-align: center;
-        padding: 10px;
-        
-  
-    
+            text-decoration: underline;
+            text-align: center;
+            padding: 10px;
+              
+        }
     }
 }
 .txt-canales {
@@ -150,4 +144,5 @@ aside {
         
     
     }
+
 }
