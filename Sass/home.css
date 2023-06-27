@@ -39,7 +39,6 @@
 }
 
 aside.info {
-  display: grid;
   padding: 15px;
   gap: 20px;
   justify-items: center;
@@ -47,9 +46,8 @@ aside.info {
 }
 
 aside .info-maps iframe {
-  width: 400px;
-  max-width: 550px;
-  height: 200px;
+  width: 100%;
+  height: 150px;
 }
 aside #info-nosotros {
   border: 1px solid #d1d1d1;
@@ -91,7 +89,7 @@ aside #info-nosotros h2 {
 }
 
 /* Seccion media */
-@media (min-width: 558px) {
+@media (min-width: 740px) {
   .prop-destacadas {
     text-align: center;
     color: black;
@@ -105,5 +103,10 @@ aside #info-nosotros h2 {
     gap: 50px;
     align-items: center;
     grid-template-columns: 1fr 2fr;
+  }
+  aside .info-maps iframe {
+    width: 450px;
+    max-width: 550px;
+    height: 280px;
   }
 }/*# sourceMappingURL=home.css.map */
